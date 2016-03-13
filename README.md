@@ -15,10 +15,10 @@ Initial User Set Up (add roles and main admin), Type the ff in cmd
 * $user = App\User::create(['name'=>'Main Administrator', 'email'=>'admin@philed.com', 'password'=>bcrypt('philedmainadmin'), 'is_verified'=>'true', 'role_id'=>'1']);
 
 URLs:
-* Main admin login: ../auth/login/main_admin
+* Main admin login: ../auth/login/main-admin
 
 Registration links:
-* Main admin - ../auth/register/main_admin
+* Main admin - ../auth/register/main-admin
 * Inst admin - ../auth/register/institution
 * Prof - ../auth/register/professor
 * Student - ../auth/register/student
